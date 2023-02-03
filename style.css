@@ -7,6 +7,25 @@ section {
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
-.cool-4 {
-    column-gap: 36px;
+.btn {
+    border: 3px solid blue;
+    border-radius: 24px;
+}
+
+.btn:hover {
+    border-radius: 3px solid blue;
+    background-color: black;
+    color: white;
+}
+
+.home h1 {
+    font-family: 72px;
+}
+
+.home h3 {
+    font-size: 38px;
+}
+
+.home .arrow img {
+    width: 60px;
 }
